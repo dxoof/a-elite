@@ -1,7 +1,7 @@
 /* Общие стили */
 body {
   color: #272727;
-  background-color: white;
+  background-color: #ffffff;
   font-family: 'Montserrat';
   margin: 0;
 }
@@ -16,7 +16,7 @@ section {
 }
 
 section:nth-child(1) {
-  background-color: #FF715B;
+  background-color: #DDB892;
   height: 100vh;
 }
 
@@ -95,7 +95,7 @@ button {
 }
   
 button:hover {
-  color: #FF715B;
+  color: #DDB892;
   background-color: #272727;
 }
 
@@ -140,7 +140,7 @@ nav {
 article img {
   border-radius: 10px;
   width: 100%;
-  height: auto;
+  height: 40em;
 
   grid-column-start: 3;
   grid-row-start: 1;
@@ -198,8 +198,11 @@ article img {
   justify-content: center;
 }
 
-.money-img {
-  background-color: #FEEFC6;
+.money-img,
+.badge-img,
+.time-img
+ {
+  background-color: #272727;
 }
 
 .money-img img,
@@ -211,12 +214,4 @@ article img {
 .badge-img img {
   width: 100px;
   height: 100px;
-}
-
-.badge-img {
-  background-color: #FFE1DC;
-}
-
-.time-img {
-  background-color: #E4E9ED;
 }
